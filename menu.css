@@ -1,17 +1,25 @@
 #menu{
-    background-color: black;
     padding:0px;
     text-align: right;
+    position: sticky;
+    top:0;
+    
 }
 #title{
-    font-size: 3em;
-    color: blueviolet;
-    background-color: black;
+    font-size: 2em;
+    color: silver;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
 }
 #aboutauthor{
     border: 2px solid yellowgreen;
+    background-color: black;
+    max-width: 900px;
+    margin-left: 15%;
+    margin-right: 15%;
+
 }
+
 #aboutauthor h1{
     font-size: 2em;
     color: teal;
@@ -20,12 +28,17 @@
     
 }
 #aboutauthor p{
-    color: wheat;
+    color: rgb(221, 8, 8);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+   
 }
 #books{
     border: 2px solid yellowgreen;
+    background-color: black;
+    max-width: 900px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 #books h1{
     font-size: 2em;
@@ -34,7 +47,7 @@
     text-align: center;
 }
 #books p{
-    color: wheat;
+    color:#af040d;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
 }
@@ -85,3 +98,8 @@
   .dropdown:hover .dropbtn {
     background-color: #810209;
   }
+  .container{
+    background-image: url("space.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
